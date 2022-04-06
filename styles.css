@@ -1,14 +1,9 @@
-
-.header {
-  background-color: #ebe0eb;
-  height: 100vh;
-  background-size: cover;
-
-}
-
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  background-color: #ebe0eb;
+  height: 100vh;
+  background-size: cover;
 }
 
 .header-logo img {
@@ -71,20 +66,21 @@ body {
   color: #a70686;
 }
 
-/*.phone-text {
+.phone-text {
   font-size: 14px;
   font-weight: 700;
   color: #2b262a;
-}*/
+}
 
 .phone-holder {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
-/*.phone {
-  padding-left: 10px;
-}*/
+.phone-text {
+  padding-left: 4px;
+}
 
 .button {
   background-color: #edbded;
@@ -93,13 +89,88 @@ body {
   padding: 14px 18px;
   font-size: 14px;
   font-weight: 700;
+  transition: color 0.2s linear;
 }
 
 .nav-item:hover {
   color: #a70686;
 }
 
-.button:hover {
+.button:hover, .header-button:hover {
   background-color: #d67dc5;
   color: #f4ddf0;
+}
+
+/*@media (max-width: 1225px) {
+  .header {
+    text-align: center;
+    display: block;
+  }
+}*/
+
+.header-down {
+  position: relative;
+  display: flex;  
+  margin-left: 50px;
+  
+}
+
+.header-title {
+  color:#462b42;
+  font-family: 'Tinos', serif;
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  margin-left: 166px;
+  margin-top: 195px;
+  margin-bottom: 14px;
+}
+
+.header-suptitle {
+  color: #b854a5;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-suptitle::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 50px;
+  background-color: #b854a5;
+  top: 112px;
+  left: 59px;
+}
+
+.header-suptitle::before {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 50px;
+  background-color: #b854a5;
+  top: 112px;
+  right: 59px;
+}
+
+.header-button {
+  background-color: #edbded;
+  color: #2b262a;
+  padding: 14px 28px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+
+
+.bouquets img {
+  height: 450px;
+  width: 475px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  margin-left: 750px;
+  margin-top: 50px;
+  opacity: 0.9;
 }
