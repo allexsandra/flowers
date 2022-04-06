@@ -1,0 +1,105 @@
+
+.header {
+  background-color: #ebe0eb;
+  height: 100vh;
+  background-size: cover;
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-logo img {
+  width: 95px;
+  height: 95px;
+}
+
+.container {
+  margin: 0px 166px;
+}
+
+.card img {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+
+}
+
+.phone-img img {
+  width: 30px;
+  height: 30px;
+}
+
+.header-line {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item {
+  color: #2b262a;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 25px;
+  font-weight: 700;
+  transition: color 0.2s linear;
+
+}
+
+.card {
+  border-right: 1px solid #2b262a;
+  padding-right: 12px;
+  padding-left: 7px;
+  height: 50px;
+  position: relative;
+}
+
+.num {
+  color: #2b262a;
+  text-decoration: none;
+  font-weight: 700;
+  padding-left: 5px;
+  transition: color 0.2s linear;
+}
+
+.num:hover {
+  color: #a70686;
+}
+
+/*.phone-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2b262a;
+}*/
+
+.phone-holder {
+  display: flex;
+  align-items: center;
+}
+
+/*.phone {
+  padding-left: 10px;
+}*/
+
+.button {
+  background-color: #edbded;
+  color: #2b262a;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav-item:hover {
+  color: #a70686;
+}
+
+.button:hover {
+  background-color: #d67dc5;
+  color: #f4ddf0;
+}
