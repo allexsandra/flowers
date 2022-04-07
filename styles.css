@@ -43,7 +43,14 @@ body {
   margin-right: 25px;
   font-weight: 700;
   transition: color 0.2s linear;
+}
 
+.nav-item1 {
+  color: #d67dc5;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 25px;
+  font-weight: 700;
 }
 
 .card {
