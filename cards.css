@@ -53,6 +53,7 @@
   margin-right: 18px;
   display: flex;
   justify-content:center;
+  padding-bottom: 120px;
 }
 .history-tittle {
   color:#462b42;
@@ -64,8 +65,8 @@
   margin-bottom: 18px;
 }
 
-.history-tittle span {
-  color: #d45dbe;
+.history-tittle span, .flowers-title span {
+  color: #b854a5;
 }
 
 .history-desc {
@@ -73,4 +74,90 @@
   size: 16px;
   width: 850px;
   text-align: center;
+}
+
+.block {
+  /*padding: 30px 0;*/
+}
+
+.left-tittle {
+  color:#462b42;
+  font-family: 'Tinos', serif;
+  font-size: 38px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.left-text {
+  font-weight: 700;
+  font-size: 16px;
+  color: #b854a5;
+}
+
+.left {
+  margin-left: 125px;
+}
+
+.right-btn {
+  margin-right: 220px;
+  background-color: #edbded;
+  color: #2b262a;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: color 0.2s linear;
+}
+
+.right-btn:hover {
+  background-color: #d67dc5;
+  color: #f4ddf0;
+}
+
+.block-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flowers-title {
+  color:#462b42;
+  font-family: 'Tinos', serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 123px;
+  margin-bottom: 99px;
+}
+
+.buket{
+  height: 427px;
+  width: 422px;
+}
+
+.tulpan {
+  height: 125px;
+  width: 125px;
+}
+
+.tulpans {
+  display: flex;
+  justify-content: center;
+}
+
+.tulpan-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.tulpans-image {
+  margin-right: 30px;
+}
+
+.tulpan-text {
+  color:#462b42;
+  font-family: 'Tinos', serif;
+  font-size: 24px;
+  margin-left: 20px;
 }
