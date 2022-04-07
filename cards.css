@@ -40,9 +40,37 @@
   text-align: center;
   padding-left: 7px;
   padding-right: 7px;
+  padding-bottom: 7px;
   color:#4a3747;
   font-family: 'Tinos', serif;
   font-size: 18px;
+  font-weight: 400; 
+}
+
+.history {
+  margin-top: 100px;
+  margin-left: 18px;
+  margin-right: 18px;
+  display: flex;
+  justify-content:center;
+}
+.history-tittle {
+  color:#462b42;
+  font-family: 'Tinos', serif;
+  font-size: 48px;
   font-weight: 400;
-  
+  width: 850px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.history-tittle span {
+  color: #d45dbe;
+}
+
+.history-desc {
+  color: #4a3747;
+  size: 16px;
+  width: 850px;
+  text-align: center;
 }
