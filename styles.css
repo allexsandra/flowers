@@ -115,9 +115,12 @@ body {
   }
 }*/
 
-.header-dowm {
+/*.header-down {
   display: flex;
-}
+  position: relative;
+}*/
+
+
 .header-title {
   color:#462b42;
   font-family: 'Tinos', serif;
@@ -126,7 +129,7 @@ body {
   text-align: center;
   display: block;
   position: absolute;
-  margin-left: 65px;
+  margin-left: -40px;
   margin-top: 195px;
   margin-bottom: 14px;
 }
@@ -171,12 +174,9 @@ body {
 
 .bouquets img {
   height: 400px;
-  position: relative;
-  display: flex;
   width: 425px;
  /* border-radius: 28px;*/
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-  margin-left: 640px;
   margin-top: 50px;
   margin-bottom: 50px;
   opacity: 0.9;
@@ -184,6 +184,15 @@ body {
 
 .header-info {
   display: flex;
-  margin: 50px 166px;
-  justify-content:space-between;
+  justify-content:center;
+  margin-right: 20px;
+  margin-left: 15px;
+  width: 50%
+}
+
+
+.header-box {
+  display: flex;
+  justify-content:center;
+  margin-bottom: 50px;
 }
