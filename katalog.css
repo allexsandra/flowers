@@ -158,3 +158,27 @@
   background-color: #a70686;
   color: #f4ddf0;
 }
+
+
+@media (max-width: 992px) {
+.menu-img {
+  height: 250px;
+  width: 250px;
+}
+  .menu-items {
+    text-align: center;
+    display: block;
+    
+}
+  .menu-item {
+    margin-left: 145px;
+    margin-bottom: 36px;
+  }
+  .menu-tittle{
+   margin-bottom: -20px;
+}
+}
+
+
+
+ 
