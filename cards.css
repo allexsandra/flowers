@@ -67,7 +67,7 @@
   font-weight: 400;
   width: 850px;
   text-align: center;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .history-tittle span, .flowers-title span {
@@ -101,7 +101,7 @@
 }
 
 .right-btn {
-  margin-right: 220px;
+  margin-right: 136px;
   background-color: #edbded;
   color: #2b262a;
   text-decoration: none;
@@ -165,7 +165,7 @@
 }
 
 
-@media (max-width: 1136px){
+@media (min-width: 320px) and (max-width: 1136px) {
   .carts-holder {
     display: block;
   }
@@ -181,5 +181,41 @@
   .right-btn {
     margin-right: -5px;
   }
+
+  .left {
+    margin-left: 5px;
+  }
+
+  .flowers-title {
+    margin-bottom: 30px;
+    margin-right: 7px;
+    margin-top: 80px;
+  }
+
+  .buket {
+    height: 380px;
+    width: 385px;
+  }
+
+  .tulpans {
+  display: block;
+  }
+
+  .tulpans-image {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .tulpan-item {
+    text-align: center;
+    margin-bottom: 36px;
+    margin-left: 15px;
+  }
+
+  .history-desc {
+    font-size: 14px;
+  }
 }
+
+
 
