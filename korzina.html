@@ -8,11 +8,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Tinos:wght@700&display=swap" rel="stylesheet">
+    <script src='http://code.jquery.com/jquery-latest.js'></script>
     <title>Floretik</title>
     <!-- магазин с букетами цветов -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="korzina.css">
-
+    <script type='text/javascript'>
+        
+        $(function (){
+       
+            $('.number-prev').click(function (){
+        
+                inc(this.parentNode,-1);
+        
+            });
+        
+            $('.number-next').click(function (){
+        
+                inc(this.parentNode,1);
+        
+            });
+        
+            function inc(Obj,Val){
+        
+                Obj=$(Obj).find('.valueNumber');
+        
+                var val=parseInt(Obj.text());
+        
+                if (val==0 && Val==-1) {
+        
+                    return;
+        
+                };
+        
+                Obj.text(val+Val);
+        
+            };
+        
+        });
+        
+        </script>
+        
 </head>
 <body>
     <header class="header">
@@ -75,12 +111,147 @@
             </div>
         </div>
     </header>
-        <main class="basket">
+
+    <main>
+        <div class="basket">
             <div class="container">
                 <div class="basket-tittle">
                     Корзина
                 </div>
+
+                <div class="chopping">
+                    <div class="item">
+                        <div class="buttons">
+                        <img src="exit.png" class="delete-btn"></img>
+                        </div>
+                
+                        <div class="image">
+                        <img src="buy.JPG" alt="" />
+                        </div>
+                
+                        <div class="description">
+                        <span>Красивый букетик</span>
+                        </div>
+                
+                        <div class="quantity">
+                            <button class="number-actual number-next" type="button" name="button">
+                                <img src="plus.svg" alt="" />
+                            </button>
+                            <span class="valueNumber">1</span>
+                            <button class="number-actual number-prev" type="button" name="button">
+                                <img src="minus.svg" alt="" />
+                            </button>
+                        </div>
+                        <div class="total-price">420₴</div>
+                    </div>
+
+                    <div class="item">
+                        <div class="buttons">
+                        <img src="exit.png" class="delete-btn"></img>
+                        </div>
+                
+                        <div class="image">
+                        <img src="buy.JPG" alt="" />
+                        </div>
+                
+                        <div class="description">
+                        <span>Красивый букетик</span>
+                        </div>
+                
+                        <div class="quantity">
+                            <button class="number-actual number-next" type="button" name="button">
+                                <img src="plus.svg" alt="" />
+                            </button>
+                            <span class="valueNumber">1</span>
+                            <button class="number-actual number-prev" type="button" name="button">
+                                <img src="minus.svg" alt="" />
+                            </button>
+                        </div>
+                        <div class="total-price">420₴</div>
+                    </div>
+
+                    <div class="item">
+                        <div class="buttons">
+                        <img src="exit.png" class="delete-btn"></img>
+                        </div>
+                
+                        <div class="image">
+                        <img src="buy.JPG" alt="" />
+                        </div>
+                
+                        <div class="description">
+                        <span>Красивый букетик</span>
+                        </div>
+                
+                        <div class="quantity">
+                            <button class="number-actual number-next" type="button" name="button">
+                                <img src="plus.svg" alt="" />
+                            </button>
+                            <span class="valueNumber">1</span>
+                            <button class="number-actual number-prev" type="button" name="button">
+                                <img src="minus.svg" alt="" />
+                            </button>
+                        </div>
+                        <div class="total-price">420₴</div>
+                    </div>
+
+                   
+                </div>
+
+                <div class="menu-button">
+                    <a href="#openModal" class="menu-btn">ЗАКАЗАТЬ</a>
+                </div>
+
             </div>
-        </main>
+        </div>
+            
+    </main>
+
+    <div id="openModal" class="modalDialog1">
+        <div>
+          <a href="#close" title="Закрыть" class="close">X</a>
+          <div class="form">
+                <form action="index.html">
+                    <div class="row">
+
+                            <div class="form-group">
+                                <label for="name">Ваше имя:</label>
+                                <input type="text" id="name" placeholder="Введите имя...">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Номер телефона:</label>
+                                <input type="tel" id="phone" placeholder="+(380)...">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Ваш E-mail:</label>
+                                <input type="email" id="name" placeholder="Введите E-mail...">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="text">Комментарий:</label>
+                                <textarea id="text" cols="20" rows="1"></textarea>
+                            
+                            </div>
+
+                            <div class="form-button">
+                                <a href="#open" class="form-btn">ЗАКАЗАТЬ</a>
+                            </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="open" class="modalDialog">
+        <div>
+            <a href="index.html" title="Закрыть" class="close">X</a>
+            <p>Спасибо за ваш заказ! <br> Наш оператор свяжется с вами</p>
+        </div>
+    </div>
+          
+            
 </body>
 </html>
