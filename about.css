@@ -1,3 +1,77 @@
 .container {
   margin: 0px 166px;
 }
+
+.about {
+  padding-bottom: 100px;
+
+}
+.about-tittle {
+  color:#462b42;
+  font-family: 'Tinos', serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 75px;
+}
+
+.about-tittle span, .about-text span {
+  color: #b854a5;
+}
+
+.about-us {
+  display: flex;
+  margin: 0 70px;
+}
+
+.about-text {
+  text-align: left;
+  padding-left: 36px;
+  font-size: 22px;
+  color:#462b42;
+  font-family: 'Tinos', serif;
+}
+
+.weare {
+  width: 405px;
+  height: 415px;
+  opacity: 0.95;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.wrk-up {
+  Width: 530px;
+  Height: 333px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.wrk-down{
+  width: 255px;
+  height: 223px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+}
+
+.work-left {
+  margin-right: 20px;
+}
+
+.work-down, .work-up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.cook-img {
+  height: 370px;
+  width: 335px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.cooks {
+  display: flex;
+  justify-content: space-around;
+}

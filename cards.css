@@ -164,6 +164,44 @@
   margin-left: 20px;
 }
 
+.comment {
+  padding-top: 104px;
+  padding-bottom: 139px;
+  padding-left: 40px;
+  padding-right: 36px;
+}
+
+.comment-text {
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color:#462b42;
+}
+
+.comment-img {
+  border-radius: 50%;
+}
+
+.comment-image {
+  text-align:center;
+  padding-bottom: 5px;
+}
+
+.comment-type {
+  font-size: 18px;
+  text-align: center;
+  color: #4a3747;
+}
+
+.comment-name {
+  padding-top: 9px;
+  font-size: 16px;
+  text-align: center;
+  color:#462b42;
+}
+
 
 @media (min-width: 320px) and (max-width: 1136px) {
   .carts-holder {
@@ -212,9 +250,10 @@
     margin-left: 15px;
   }
 
-  .history-desc {
+  .history-desc, .comment-text, .comment-type {
     font-size: 14px;
   }
+
 }
 
 
