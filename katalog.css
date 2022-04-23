@@ -129,9 +129,6 @@
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
 	background: #edbded;
-	background: -moz-linear-gradient(#edbded, #999);
-	background: -webkit-linear-gradient(#edbded, #999);
-	background: -o-linear-gradient(#edbded, #999);
 }
 
 .close {
