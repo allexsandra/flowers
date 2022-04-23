@@ -8,7 +8,8 @@ body {
  
 .footer {
   color: #462b42;
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 36px;
   text-align: center;
   font-size: small;
 }

@@ -36,7 +36,6 @@
 .weare {
   width: 405px;
   height: 415px;
-  opacity: 0.95;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
@@ -74,4 +73,31 @@
 .cooks {
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 1024px) {
+  .about-us, .cooks {
+    display: block;
+    text-align: center;
+  }
+
+  .about-us{
+    margin: 0;
+  }
+  .work-right {
+    display: none;
+  }
+
+  .cook-image {
+    padding-bottom: 20px;
+  }
+
+  .about-text {
+    font-size: 20px;
+  }
+
+  .weare {
+    width: 469px;
+    height: 526px;
+  }
 }
